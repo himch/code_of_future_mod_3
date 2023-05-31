@@ -1,6 +1,7 @@
 # Работу сделал Холодилов Георгий.
-end_game_falg = False
-while not end_game_falg:
+end_game = False
+d1 = d2 = d3 = d4 = d5 = 0
+while not end_game:
     while True:
         print('Добро пожаловать в мою игру.')
         print('Ты находишся в подземелье, твоя главня задача выброца отсюдаю.')
@@ -52,5 +53,6 @@ while not end_game_falg:
             print('Держи своё сокровище')
             break
         a = input('Хочешь сыграть ещё раз? Чтоб выйти (Нет)')
-        if a != 'Нет':
-                end_game_falg = True
+        if a == 'Нет':
+            end_game = True
+            break

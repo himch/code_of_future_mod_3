@@ -1,4 +1,6 @@
 # Создал Егоров Владислав
+# Игра Текстовый Квест
+
 end_game_flag = False
 while not end_game_flag:
     print("Welcome to my Text Adventure Game!")
